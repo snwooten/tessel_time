@@ -28,7 +28,10 @@ var sound = new av.Player(mp3);
 
 // mic.listen.on("data", buffer => console.log(`buffer: ${buffer.length}`));
 let speaker = new av.Speaker();
-speaker.say([`
-  Hello, this is tesseltime.
-  I'm going to say my A-B-C's now
-`,'a', 10, 'p', 50]);
+// speaker.say([`
+//   Hello, this is tesseltime.
+//   I'm going to say my A-B-C's now
+// `,'a', 10, 'p', 50]);
+
+
+module.export = speaker;
